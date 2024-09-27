@@ -26,13 +26,13 @@ android {
     compileOptions {
 //        sourceCompatibility = JavaVersion.VERSION_1_8
 //        targetCompatibility = JavaVersion.VERSION_1_8
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 dependencies {
 
@@ -54,7 +54,7 @@ afterEvaluate {
 
                 groupId = "com.github.shubhammali929"
                 artifactId = "miniorange"
-                version = "1.0"
+                version = "1.2"
 
                 // Include dependencies in the POM file
                 pom {
